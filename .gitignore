@@ -1,5 +1,6 @@
-
 <<<<<<< HEAD
+=======
+
 .classpath
 .project
 .settings
@@ -17,7 +18,6 @@
 /log/info.log
 /log/factConfirmation.html
 /repo/
-=======
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
@@ -71,6 +71,13 @@ Thumbs.b
 
 # Created by https://www.gitignore.io/api/java,intellij
 
+.idea/
+src/resources/lib/
+target/
+/FactCheckRestApi.iml
+/FactCheckApi.iml
+/gs-rest-service.iml
+=======
 
 /target/
 
@@ -125,6 +132,8 @@ fabric.properties
 .mtj.tmp/
 
 # Package Files #
+*.jar
+=======
 # *.jar
 *.war
 *.ear
@@ -133,8 +142,11 @@ fabric.properties
 *.rar
 
 #FactCheck lib
+src/main/resources/lib/*
+=======
 factcheck*.jar
 FactCheck*.jar
+
 
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
@@ -143,7 +155,54 @@ hs_err_pid*
 
 # End of https://www.gitignore.io/api/java,intellij
 
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/dist-server
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+=======
+
 
 factcheck-api.iml
 src/main/main.iml
+
 
